@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "Portfolio backend to handle contact me form submission by using nodemailer and express",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldinoanggawan/portfolio-backend.git"
+  },
+  "author": "Aldino Anggawan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aldinoanggawan/portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/aldinoanggawan/portfolio-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.10",
+    "nodemailer-mailgun-transport": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
