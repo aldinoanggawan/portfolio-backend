@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 })
 
 // Post requst for sending email
-app.post('/contact', (req, res) => {
+app.post('/api/contact', (req, res) => {
   const { name, email, text } = req.body
   console.log(req.body)
 
